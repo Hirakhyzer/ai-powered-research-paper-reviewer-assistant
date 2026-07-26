@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-label="Research paper reviewer assistant architecture">
+  <rect width="1200" height="360" fill="#f8fafc"/>
+  <text x="600" y="42" text-anchor="middle" font-family="Arial" font-size="26" font-weight="700" fill="#0f172a">AI-Powered Research Paper Reviewer Assistant</text>
+  <g font-family="Arial" font-size="15" fill="#0f172a">
+    <rect x="45" y="95" width="155" height="80" rx="14" fill="#dbeafe" stroke="#1d4ed8"/>
+    <text x="122" y="128" text-anchor="middle">Synthetic</text><text x="122" y="151" text-anchor="middle">papers</text>
+    <rect x="245" y="95" width="155" height="80" rx="14" fill="#dcfce7" stroke="#15803d"/>
+    <text x="322" y="128" text-anchor="middle">Summaries &</text><text x="322" y="151" text-anchor="middle">sections</text>
+    <rect x="445" y="60" width="160" height="80" rx="14" fill="#fef3c7" stroke="#b45309"/>
+    <text x="525" y="93" text-anchor="middle">Methodology</text><text x="525" y="116" text-anchor="middle">audit</text>
+    <rect x="445" y="175" width="160" height="80" rx="14" fill="#ede9fe" stroke="#7c3aed"/>
+    <text x="525" y="208" text-anchor="middle">Citation</text><text x="525" y="231" text-anchor="middle">comparison</text>
+    <rect x="650" y="95" width="170" height="80" rx="14" fill="#fee2e2" stroke="#dc2626"/>
+    <text x="735" y="128" text-anchor="middle">Reproducibility</text><text x="735" y="151" text-anchor="middle">checklist</text>
+    <rect x="865" y="95" width="170" height="80" rx="14" fill="#e0f2fe" stroke="#0369a1"/>
+    <text x="950" y="128" text-anchor="middle">Reviewer</text><text x="950" y="151" text-anchor="middle">checklist</text>
+    <rect x="1070" y="95" width="95" height="80" rx="14" fill="#f1f5f9" stroke="#475569"/>
+    <text x="1117" y="128" text-anchor="middle">Report &</text><text x="1117" y="151" text-anchor="middle">audit</text>
+  </g>
+  <g stroke="#334155" stroke-width="3" fill="none" marker-end="url(#arrow)">
+    <path d="M200 135 L245 135"/><path d="M400 125 L445 100"/><path d="M400 145 L445 215"/><path d="M605 100 L650 125"/><path d="M605 215 L650 145"/><path d="M820 135 L865 135"/><path d="M1035 135 L1070 135"/>
+  </g>
+  <defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#334155"/></marker></defs>
+  <text x="600" y="320" text-anchor="middle" font-family="Arial" font-size="14" fill="#475569">Independent reviewer-support simulator • synthetic data only by default • human peer review required</text>
+</svg>
