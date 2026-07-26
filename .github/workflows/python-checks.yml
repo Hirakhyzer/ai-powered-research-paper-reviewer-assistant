@@ -11,6 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     env:
       PYTHONPATH: src
+      MPLBACKEND: Agg
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -20,11 +21,13 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           python -m pip install -r requirements.txt
+          python -m pip check
       - name: Show environment
         run: |
           python --version
           python -c "import sys; print(sys.path)"
+          python -c "import paperreview; print(paperreview.__version__)"
       - name: Run tests
-        run: python -m pytest -q
+        run: python -m pytest -q tests
       - name: Run synthetic paper reviewer smoke test
         run: python scripts/run_synthetic_review_lab.py --papers 16 --seed 7 --output-dir outputs_ci
