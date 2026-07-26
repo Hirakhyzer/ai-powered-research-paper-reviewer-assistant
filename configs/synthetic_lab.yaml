@@ -1,0 +1,18 @@
+seed: 42
+papers: 36
+fields:
+  - artificial_intelligence
+  - wireless_networks
+  - digital_health
+  - privacy_engineering
+  - education_technology
+risk_thresholds:
+  medium: 0.32
+  high: 0.58
+  critical: 0.78
+review_boundary: independent reviewer-support only; not automatic acceptance or rejection
+outputs:
+  root: outputs
+  figures: outputs/figures
+  reports: outputs/reports
+  audit: outputs/audit
