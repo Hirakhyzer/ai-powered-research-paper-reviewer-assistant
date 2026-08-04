@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="760" viewBox="0 0 1400 760" role="img" aria-label="AI reviewer assistant dashboard preview">
+  <defs>
+    <linearGradient id="page" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#f8fafc"/>
+      <stop offset="100%" stop-color="#e0f2fe"/>
+    </linearGradient>
+    <linearGradient id="card" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#f8fafc"/>
+    </linearGradient>
+    <filter id="s" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="12" stdDeviation="14" flood-color="#0f172a" flood-opacity="0.12"/>
+    </filter>
+  </defs>
+  <rect width="1400" height="760" rx="32" fill="url(#page)"/>
+  <rect x="56" y="48" width="1288" height="664" rx="28" fill="#0f172a" filter="url(#s)"/>
+  <rect x="80" y="78" width="1240" height="604" rx="24" fill="#f8fafc"/>
+  <rect x="80" y="78" width="1240" height="74" rx="24" fill="#111827"/>
+  <text x="122" y="125" font-family="Inter,Segoe UI,Arial" font-size="27" font-weight="800" fill="#ffffff">Reviewer Assistant Dashboard</text>
+  <text x="995" y="124" font-family="Inter,Segoe UI,Arial" font-size="15" fill="#cbd5e1">Synthetic lab run • seed 42 • 36 papers</text>
+  <g transform="translate(112 190)" font-family="Inter,Segoe UI,Arial">
+    <g filter="url(#s)">
+      <rect width="262" height="136" rx="22" fill="url(#card)"/>
+      <text x="24" y="42" font-size="16" font-weight="700" fill="#475569">Papers reviewed</text>
+      <text x="24" y="95" font-size="48" font-weight="800" fill="#0f172a">36</text>
+      <circle cx="220" cy="72" r="28" fill="#dbeafe"/>
+      <path d="M207 73h26M207 62h26M207 84h18" stroke="#2563eb" stroke-width="5" stroke-linecap="round"/>
+    </g>
+    <g transform="translate(292 0)" filter="url(#s)">
+      <rect width="262" height="136" rx="22" fill="url(#card)"/>
+      <text x="24" y="42" font-size="16" font-weight="700" fill="#475569">Methodology risk</text>
+      <text x="24" y="95" font-size="48" font-weight="800" fill="#dc2626">42%</text>
+      <rect x="178" y="52" width="44" height="62" rx="12" fill="#fee2e2"/>
+      <rect x="126" y="74" width="44" height="40" rx="12" fill="#fecaca"/>
+    </g>
+    <g transform="translate(584 0)" filter="url(#s)">
+      <rect width="262" height="136" rx="22" fill="url(#card)"/>
+      <text x="24" y="42" font-size="16" font-weight="700" fill="#475569">Citation coverage</text>
+      <text x="24" y="95" font-size="48" font-weight="800" fill="#0891b2">71%</text>
+      <circle cx="214" cy="70" r="33" fill="#cffafe"/>
+      <path d="M198 70l12 12 24-31" stroke="#0891b2" stroke-width="6" fill="none" stroke-linecap="round"/>
+    </g>
+    <g transform="translate(876 0)" filter="url(#s)">
+      <rect width="262" height="136" rx="22" fill="url(#card)"/>
+      <text x="24" y="42" font-size="16" font-weight="700" fill="#475569">Audit ledger</text>
+      <text x="24" y="95" font-size="48" font-weight="800" fill="#16a34a">OK</text>
+      <path d="M192 52h48v56h-48z" fill="#dcfce7" stroke="#16a34a" stroke-width="3"/>
+      <path d="M202 70h28M202 84h28M202 98h20" stroke="#16a34a" stroke-width="4" stroke-linecap="round"/>
+    </g>
+  </g>
+  <g transform="translate(112 362)" font-family="Inter,Segoe UI,Arial" filter="url(#s)">
+    <rect width="610" height="252" rx="22" fill="#ffffff"/>
+    <text x="28" y="42" font-size="20" font-weight="800" fill="#0f172a">Reviewer-support risk map</text>
+    <g transform="translate(32 70)">
+      <rect x="0" y="0" width="520" height="26" rx="13" fill="#e2e8f0"/>
+      <rect x="0" y="0" width="395" height="26" rx="13" fill="#7c3aed"/>
+      <text x="0" y="56" font-size="15" fill="#475569">Contribution clarity</text>
+      <text x="475" y="56" font-size="15" fill="#0f172a">76%</text>
+      <rect x="0" y="78" width="520" height="26" rx="13" fill="#e2e8f0"/>
+      <rect x="0" y="78" width="285" height="26" rx="13" fill="#ef4444"/>
+      <text x="0" y="134" font-size="15" fill="#475569">Methodology confidence</text>
+      <text x="475" y="134" font-size="15" fill="#0f172a">55%</text>
+      <rect x="0" y="156" width="520" height="26" rx="13" fill="#e2e8f0"/>
+      <rect x="0" y="156" width="365" height="26" rx="13" fill="#06b6d4"/>
+      <text x="0" y="212" font-size="15" fill="#475569">Related-work breadth</text>
+      <text x="475" y="212" font-size="15" fill="#0f172a">70%</text>
+    </g>
+  </g>
+  <g transform="translate(758 362)" font-family="Inter,Segoe UI,Arial" filter="url(#s)">
+    <rect width="472" height="252" rx="22" fill="#ffffff"/>
+    <text x="28" y="42" font-size="20" font-weight="800" fill="#0f172a">Human reviewer checklist</text>
+    <g font-size="15" fill="#334155">
+      <circle cx="38" cy="82" r="8" fill="#22c55e"/><text x="58" y="87">Check whether baselines are strong enough</text>
+      <circle cx="38" cy="122" r="8" fill="#f59e0b"/><text x="58" y="127">Inspect evidence for strongest claims</text>
+      <circle cx="38" cy="162" r="8" fill="#ef4444"/><text x="58" y="167">Request missing ablation details</text>
+      <circle cx="38" cy="202" r="8" fill="#06b6d4"/><text x="58" y="207">Verify reproducibility artifacts manually</text>
+    </g>
+  </g>
+  <text x="700" y="700" text-anchor="middle" font-family="Inter,Segoe UI,Arial" font-size="15" fill="#475569">Preview graphic for repository documentation — values are illustrative synthetic lab signals.</text>
+</svg>
