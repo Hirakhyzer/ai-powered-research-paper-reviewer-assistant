@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+title: "AI-Powered Research Paper Reviewer Assistant"
+message: "If you use this research prototype, please cite it as a software artifact."
+type: software
+authors:
+  - family-names: "Khyzer"
+    given-names: "Hira"
+repository-code: "https://github.com/Hirakhyzer/ai-powered-research-paper-reviewer-assistant"
+abstract: "An independent research prototype for auditable AI-assisted peer-review support using synthetic manuscripts, methodology audits, citation coverage signals, reproducibility checklists, reviewer prompts, reports, and hash-chained audit logging."
+keywords:
+  - peer review
+  - research integrity
+  - AI-assisted review
+  - scholarly communication
+  - reproducibility
+  - human-AI collaboration
+license: MIT
+version: 0.1.0
+date-released: 2026-08-05
